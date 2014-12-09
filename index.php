@@ -81,7 +81,7 @@ class wechatCallbackapiTest
                 switch ($object->EventKey)
                 {
                     case "MOBILE": //用户发送手机号码
-                        $url="http://localhost/yiirestful/wechat/index.php/Api/view/1" ;
+                        $url="http://localhost/blog/wechat/index.php/Api/view/1" ;
                         $curl->get($url);
                         $content =  "尊敬的用户，您好！欢迎加入【昊祥科技有限公司】会员俱乐部，请回复您的手机号码，完成身份绑定。";
                         break;
