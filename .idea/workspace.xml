@@ -1,197 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94f31075-7ca4-42e1-80bf-f718741f568a" name="Default" comment="yii">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+    <list default="true" id="94f31075-7ca4-42e1-80bf-f718741f568a" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\backend\assets\AppAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\backend\config\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\backend\config\bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\backend\config\main.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\backend\config\params.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\backend\controllers\SiteController.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\backend\models\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\backend\runtime\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\backend\views\layouts\main.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\backend\views\site\error.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\backend\views\site\index.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\backend\views\site\login.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\backend\web\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\backend\web\assets\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\backend\web\css\site.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\backend\web\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\backend\web\robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\common\config\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\common\config\bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\common\config\main.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\common\config\params.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\common\mail\layouts\html.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\common\mail\passwordResetToken.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\common\models\LoginForm.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\common\models\User.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\console\config\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\console\config\bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\console\config\main.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\console\config\params.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\console\controllers\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\console\migrations\m130524_201442_init.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\console\models\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\console\runtime\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\environments\dev\backend\config\main-local.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\environments\dev\backend\config\params-local.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\environments\dev\backend\web\index-test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\environments\dev\backend\web\index.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\environments\dev\common\config\main-local.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\environments\dev\common\config\params-local.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\environments\dev\console\config\main-local.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\environments\dev\console\config\params-local.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\environments\dev\frontend\config\main-local.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\environments\dev\frontend\config\params-local.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\environments\dev\frontend\web\index-test.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\environments\dev\frontend\web\index.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\environments\dev\yii" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\environments\index.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\environments\prod\backend\config\main-local.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\environments\prod\backend\config\params-local.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\environments\prod\backend\web\index.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\environments\prod\common\config\main-local.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\environments\prod\common\config\params-local.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\environments\prod\console\config\main-local.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\environments\prod\console\config\params-local.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\environments\prod\frontend\config\main-local.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\environments\prod\frontend\config\params-local.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\environments\prod\frontend\web\index.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\environments\prod\yii" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\frontend\assets\AppAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\frontend\config\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\frontend\config\bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\frontend\config\main.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\frontend\config\params.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\frontend\controllers\SiteController.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\frontend\models\ContactForm.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\frontend\models\PasswordResetRequestForm.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\frontend\models\ResetPasswordForm.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\frontend\models\SignupForm.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\frontend\runtime\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\frontend\views\layouts\main.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\frontend\views\site\about.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\frontend\views\site\contact.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\frontend\views\site\error.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\frontend\views\site\index.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\frontend\views\site\login.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\frontend\views\site\requestPasswordResetToken.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\frontend\views\site\resetPassword.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\frontend\views\site\signup.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\frontend\web\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\frontend\web\assets\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\frontend\web\css\site.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\frontend\web\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\frontend\web\robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\frontend\widgets\Alert.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\init" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\init.bat" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\requirements.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\_output\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\backend\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\backend\_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\backend\_output\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\backend\acceptance.suite.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\backend\acceptance\LoginCept.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\backend\acceptance\_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\backend\codeception.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\backend\functional.suite.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\backend\functional\LoginCept.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\backend\functional\_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\backend\unit.suite.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\backend\unit\DbTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\backend\unit\TestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\backend\unit\_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\backend\unit\fixtures\data\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\bin\_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\bin\yii" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\bin\yii.bat" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\common\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\common\_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\common\_output\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\common\_pages\LoginPage.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\common\_support\FixtureHelper.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\common\codeception.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\common\fixtures\UserFixture.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\common\fixtures\data\init_login.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\common\templates\fixtures\user.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\common\unit.suite.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\common\unit\DbTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\common\unit\TestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\common\unit\_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\common\unit\fixtures\data\models\user.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\common\unit\models\LoginFormTest.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\config\acceptance.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\config\backend\acceptance.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\config\backend\config.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\config\backend\functional.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\config\backend\unit.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\config\common\unit.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\config\config.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\config\console\unit.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\config\frontend\acceptance.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\config\frontend\config.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\config\frontend\functional.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\config\frontend\unit.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\config\functional.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\config\unit.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\console\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\console\_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\console\_output\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\console\codeception.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\console\unit.suite.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\console\unit\DbTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\console\unit\TestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\console\unit\_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\console\unit\fixtures\data\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\_output\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\_pages\AboutPage.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\_pages\ContactPage.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\_pages\SignupPage.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\acceptance.suite.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\acceptance\AboutCept.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\acceptance\ContactCept.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\acceptance\HomeCept.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\acceptance\LoginCept.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\acceptance\SignupCest.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\acceptance\_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\codeception.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\functional.suite.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\functional\AboutCept.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\functional\ContactCept.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\functional\HomeCept.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\functional\LoginCept.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\functional\SignupCest.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\functional\_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\unit.suite.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\unit\DbTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\unit\TestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\unit\_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\unit\fixtures\data\models\user.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\unit\models\ContactFormTest.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\unit\models\PasswordResetRequestFormTest.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\unit\models\ResetPasswordFormTest.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\tests\codeception\frontend\unit\models\SignupFormTest.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\WWW\hello\blog\yii\yii.bat" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
-    <list id="23406fbd-f9e3-4797-a516-52dc75a284ad" name="Rejected commit: Default" comment="yii">
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\.bowerrc" afterPath="$PROJECT_DIR$/blog/yii/.bowerrc" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\.gitignore" afterPath="$PROJECT_DIR$/blog/yii/.gitignore" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\LICENSE.md" afterPath="$PROJECT_DIR$/blog/yii/LICENSE.md" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\README.md" afterPath="$PROJECT_DIR$/blog/yii/README.md" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\backend\assets\AppAsset.php" afterPath="$PROJECT_DIR$/blog/yii/backend/assets/AppAsset.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\backend\config\.gitignore" afterPath="$PROJECT_DIR$/blog/yii/backend/config/.gitignore" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\backend\config\bootstrap.php" afterPath="$PROJECT_DIR$/blog/yii/backend/config/bootstrap.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\backend\config\main.php" afterPath="$PROJECT_DIR$/blog/yii/backend/config/main.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\backend\config\params.php" afterPath="$PROJECT_DIR$/blog/yii/backend/config/params.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\backend\controllers\SiteController.php" afterPath="$PROJECT_DIR$/blog/yii/backend/controllers/SiteController.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\backend\models\.gitkeep" afterPath="$PROJECT_DIR$/blog/yii/backend/models/.gitkeep" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\backend\runtime\.gitignore" afterPath="$PROJECT_DIR$/blog/yii/backend/runtime/.gitignore" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\backend\views\layouts\main.php" afterPath="$PROJECT_DIR$/blog/yii/backend/views/layouts/main.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\backend\views\site\error.php" afterPath="$PROJECT_DIR$/blog/yii/backend/views/site/error.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\backend\views\site\index.php" afterPath="$PROJECT_DIR$/blog/yii/backend/views/site/index.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\backend\views\site\login.php" afterPath="$PROJECT_DIR$/blog/yii/backend/views/site/login.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\backend\web\.gitignore" afterPath="$PROJECT_DIR$/blog/yii/backend/web/.gitignore" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\backend\web\assets\.gitignore" afterPath="$PROJECT_DIR$/blog/yii/backend/web/assets/.gitignore" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\backend\web\css\site.css" afterPath="$PROJECT_DIR$/blog/yii/backend/web/css/site.css" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\backend\web\favicon.ico" afterPath="$PROJECT_DIR$/blog/yii/backend/web/favicon.ico" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\backend\web\robots.txt" afterPath="$PROJECT_DIR$/blog/yii/backend/web/robots.txt" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\common\config\.gitignore" afterPath="$PROJECT_DIR$/blog/yii/common/config/.gitignore" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\common\config\bootstrap.php" afterPath="$PROJECT_DIR$/blog/yii/common/config/bootstrap.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\common\config\main.php" afterPath="$PROJECT_DIR$/blog/yii/common/config/main.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\common\config\params.php" afterPath="$PROJECT_DIR$/blog/yii/common/config/params.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\common\mail\layouts\html.php" afterPath="$PROJECT_DIR$/blog/yii/common/mail/layouts/html.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\common\mail\passwordResetToken.php" afterPath="$PROJECT_DIR$/blog/yii/common/mail/passwordResetToken.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\common\models\LoginForm.php" afterPath="$PROJECT_DIR$/blog/yii/common/models/LoginForm.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\common\models\User.php" afterPath="$PROJECT_DIR$/blog/yii/common/models/User.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\composer.json" afterPath="$PROJECT_DIR$/blog/yii/composer.json" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\console\config\.gitignore" afterPath="$PROJECT_DIR$/blog/yii/console/config/.gitignore" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\console\config\bootstrap.php" afterPath="$PROJECT_DIR$/blog/yii/console/config/bootstrap.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\console\config\main.php" afterPath="$PROJECT_DIR$/blog/yii/console/config/main.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\console\config\params.php" afterPath="$PROJECT_DIR$/blog/yii/console/config/params.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\console\controllers\.gitkeep" afterPath="$PROJECT_DIR$/blog/yii/console/controllers/.gitkeep" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\console\migrations\m130524_201442_init.php" afterPath="$PROJECT_DIR$/blog/yii/console/migrations/m130524_201442_init.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\console\models\.gitkeep" afterPath="$PROJECT_DIR$/blog/yii/console/models/.gitkeep" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\console\runtime\.gitignore" afterPath="$PROJECT_DIR$/blog/yii/console/runtime/.gitignore" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\environments\dev\backend\config\main-local.php" afterPath="$PROJECT_DIR$/blog/yii/environments/dev/backend/config/main-local.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\environments\dev\backend\config\params-local.php" afterPath="$PROJECT_DIR$/blog/yii/environments/dev/backend/config/params-local.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\environments\dev\backend\web\index-test.php" afterPath="$PROJECT_DIR$/blog/yii/environments/dev/backend/web/index-test.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\environments\dev\backend\web\index.php" afterPath="$PROJECT_DIR$/blog/yii/environments/dev/backend/web/index.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\environments\dev\common\config\main-local.php" afterPath="$PROJECT_DIR$/blog/yii/environments/dev/common/config/main-local.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\environments\dev\common\config\params-local.php" afterPath="$PROJECT_DIR$/blog/yii/environments/dev/common/config/params-local.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\environments\dev\console\config\main-local.php" afterPath="$PROJECT_DIR$/blog/yii/environments/dev/console/config/main-local.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\environments\dev\console\config\params-local.php" afterPath="$PROJECT_DIR$/blog/yii/environments/dev/console/config/params-local.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\environments\dev\frontend\config\main-local.php" afterPath="$PROJECT_DIR$/blog/yii/environments/dev/frontend/config/main-local.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\environments\dev\frontend\config\params-local.php" afterPath="$PROJECT_DIR$/blog/yii/environments/dev/frontend/config/params-local.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\environments\dev\frontend\web\index-test.php" afterPath="$PROJECT_DIR$/blog/yii/environments/dev/frontend/web/index-test.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\environments\dev\frontend\web\index.php" afterPath="$PROJECT_DIR$/blog/yii/environments/dev/frontend/web/index.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\environments\dev\yii" afterPath="$PROJECT_DIR$/blog/yii/environments/dev/yii" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\environments\index.php" afterPath="$PROJECT_DIR$/blog/yii/environments/index.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\environments\prod\backend\config\main-local.php" afterPath="$PROJECT_DIR$/blog/yii/environments/prod/backend/config/main-local.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\environments\prod\backend\config\params-local.php" afterPath="$PROJECT_DIR$/blog/yii/environments/prod/backend/config/params-local.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\environments\prod\backend\web\index.php" afterPath="$PROJECT_DIR$/blog/yii/environments/prod/backend/web/index.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\environments\prod\common\config\main-local.php" afterPath="$PROJECT_DIR$/blog/yii/environments/prod/common/config/main-local.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\environments\prod\common\config\params-local.php" afterPath="$PROJECT_DIR$/blog/yii/environments/prod/common/config/params-local.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\environments\prod\console\config\main-local.php" afterPath="$PROJECT_DIR$/blog/yii/environments/prod/console/config/main-local.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\environments\prod\console\config\params-local.php" afterPath="$PROJECT_DIR$/blog/yii/environments/prod/console/config/params-local.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\environments\prod\frontend\config\main-local.php" afterPath="$PROJECT_DIR$/blog/yii/environments/prod/frontend/config/main-local.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\environments\prod\frontend\config\params-local.php" afterPath="$PROJECT_DIR$/blog/yii/environments/prod/frontend/config/params-local.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\environments\prod\frontend\web\index.php" afterPath="$PROJECT_DIR$/blog/yii/environments/prod/frontend/web/index.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\environments\prod\yii" afterPath="$PROJECT_DIR$/blog/yii/environments/prod/yii" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\frontend\assets\AppAsset.php" afterPath="$PROJECT_DIR$/blog/yii/frontend/assets/AppAsset.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\frontend\config\.gitignore" afterPath="$PROJECT_DIR$/blog/yii/frontend/config/.gitignore" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\frontend\config\bootstrap.php" afterPath="$PROJECT_DIR$/blog/yii/frontend/config/bootstrap.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\frontend\config\main.php" afterPath="$PROJECT_DIR$/blog/yii/frontend/config/main.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\frontend\config\params.php" afterPath="$PROJECT_DIR$/blog/yii/frontend/config/params.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\frontend\controllers\SiteController.php" afterPath="$PROJECT_DIR$/blog/yii/frontend/controllers/SiteController.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\frontend\models\ContactForm.php" afterPath="$PROJECT_DIR$/blog/yii/frontend/models/ContactForm.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\frontend\models\PasswordResetRequestForm.php" afterPath="$PROJECT_DIR$/blog/yii/frontend/models/PasswordResetRequestForm.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\frontend\models\ResetPasswordForm.php" afterPath="$PROJECT_DIR$/blog/yii/frontend/models/ResetPasswordForm.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\frontend\models\SignupForm.php" afterPath="$PROJECT_DIR$/blog/yii/frontend/models/SignupForm.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\frontend\runtime\.gitignore" afterPath="$PROJECT_DIR$/blog/yii/frontend/runtime/.gitignore" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\frontend\views\layouts\main.php" afterPath="$PROJECT_DIR$/blog/yii/frontend/views/layouts/main.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\frontend\views\site\about.php" afterPath="$PROJECT_DIR$/blog/yii/frontend/views/site/about.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\frontend\views\site\contact.php" afterPath="$PROJECT_DIR$/blog/yii/frontend/views/site/contact.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\frontend\views\site\error.php" afterPath="$PROJECT_DIR$/blog/yii/frontend/views/site/error.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\frontend\views\site\index.php" afterPath="$PROJECT_DIR$/blog/yii/frontend/views/site/index.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\frontend\views\site\login.php" afterPath="$PROJECT_DIR$/blog/yii/frontend/views/site/login.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\frontend\views\site\requestPasswordResetToken.php" afterPath="$PROJECT_DIR$/blog/yii/frontend/views/site/requestPasswordResetToken.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\frontend\views\site\resetPassword.php" afterPath="$PROJECT_DIR$/blog/yii/frontend/views/site/resetPassword.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\frontend\views\site\signup.php" afterPath="$PROJECT_DIR$/blog/yii/frontend/views/site/signup.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\frontend\web\.gitignore" afterPath="$PROJECT_DIR$/blog/yii/frontend/web/.gitignore" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\frontend\web\assets\.gitignore" afterPath="$PROJECT_DIR$/blog/yii/frontend/web/assets/.gitignore" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\frontend\web\css\site.css" afterPath="$PROJECT_DIR$/blog/yii/frontend/web/css/site.css" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\frontend\web\favicon.ico" afterPath="$PROJECT_DIR$/blog/yii/frontend/web/favicon.ico" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\frontend\web\robots.txt" afterPath="$PROJECT_DIR$/blog/yii/frontend/web/robots.txt" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\frontend\widgets\Alert.php" afterPath="$PROJECT_DIR$/blog/yii/frontend/widgets/Alert.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\init" afterPath="$PROJECT_DIR$/blog/yii/init" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\init.bat" afterPath="$PROJECT_DIR$/blog/yii/init.bat" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\requirements.php" afterPath="$PROJECT_DIR$/blog/yii/requirements.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\README.md" afterPath="$PROJECT_DIR$/blog/yii/tests/README.md" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception.yml" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception.yml" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\_output\.gitignore" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/_output/.gitignore" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\backend\.gitignore" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/backend/.gitignore" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\backend\_bootstrap.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/backend/_bootstrap.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\backend\_output\.gitignore" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/backend/_output/.gitignore" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\backend\acceptance.suite.yml" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/backend/acceptance.suite.yml" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\backend\acceptance\LoginCept.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/backend/acceptance/LoginCept.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\backend\acceptance\_bootstrap.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/backend/acceptance/_bootstrap.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\backend\codeception.yml" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/backend/codeception.yml" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\backend\functional.suite.yml" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/backend/functional.suite.yml" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\backend\functional\LoginCept.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/backend/functional/LoginCept.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\backend\functional\_bootstrap.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/backend/functional/_bootstrap.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\backend\unit.suite.yml" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/backend/unit.suite.yml" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\backend\unit\DbTestCase.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/backend/unit/DbTestCase.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\backend\unit\TestCase.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/backend/unit/TestCase.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\backend\unit\_bootstrap.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/backend/unit/_bootstrap.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\backend\unit\fixtures\data\.gitkeep" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/backend/unit/fixtures/data/.gitkeep" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\bin\_bootstrap.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/bin/_bootstrap.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\bin\yii" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/bin/yii" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\bin\yii.bat" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/bin/yii.bat" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\common\.gitignore" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/common/.gitignore" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\common\_bootstrap.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/common/_bootstrap.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\common\_output\.gitignore" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/common/_output/.gitignore" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\common\_pages\LoginPage.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/common/_pages/LoginPage.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\common\_support\FixtureHelper.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/common/_support/FixtureHelper.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\common\codeception.yml" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/common/codeception.yml" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\common\fixtures\UserFixture.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/common/fixtures/UserFixture.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\common\fixtures\data\init_login.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/common/fixtures/data/init_login.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\common\templates\fixtures\user.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/common/templates/fixtures/user.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\common\unit.suite.yml" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/common/unit.suite.yml" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\common\unit\DbTestCase.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/common/unit/DbTestCase.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\common\unit\TestCase.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/common/unit/TestCase.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\common\unit\_bootstrap.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/common/unit/_bootstrap.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\common\unit\fixtures\data\models\user.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/common/unit/fixtures/data/models/user.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\common\unit\models\LoginFormTest.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/common/unit/models/LoginFormTest.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\config\acceptance.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/config/acceptance.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\config\backend\acceptance.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/config/backend/acceptance.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\config\backend\config.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/config/backend/config.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\config\backend\functional.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/config/backend/functional.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\config\backend\unit.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/config/backend/unit.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\config\common\unit.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/config/common/unit.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\config\config.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/config/config.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\config\console\unit.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/config/console/unit.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\config\frontend\acceptance.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/config/frontend/acceptance.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\config\frontend\config.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/config/frontend/config.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\config\frontend\functional.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/config/frontend/functional.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\config\frontend\unit.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/config/frontend/unit.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\config\functional.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/config/functional.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\config\unit.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/config/unit.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\console\.gitignore" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/console/.gitignore" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\console\_bootstrap.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/console/_bootstrap.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\console\_output\.gitignore" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/console/_output/.gitignore" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\console\codeception.yml" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/console/codeception.yml" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\console\unit.suite.yml" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/console/unit.suite.yml" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\console\unit\DbTestCase.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/console/unit/DbTestCase.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\console\unit\TestCase.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/console/unit/TestCase.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\console\unit\_bootstrap.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/console/unit/_bootstrap.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\console\unit\fixtures\data\.gitkeep" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/console/unit/fixtures/data/.gitkeep" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\.gitignore" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/.gitignore" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\_bootstrap.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/_bootstrap.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\_output\.gitignore" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/_output/.gitignore" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\_pages\AboutPage.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/_pages/AboutPage.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\_pages\ContactPage.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/_pages/ContactPage.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\_pages\SignupPage.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/_pages/SignupPage.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\acceptance.suite.yml" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/acceptance.suite.yml" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\acceptance\AboutCept.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/acceptance/AboutCept.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\acceptance\ContactCept.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/acceptance/ContactCept.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\acceptance\HomeCept.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/acceptance/HomeCept.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\acceptance\LoginCept.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/acceptance/LoginCept.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\acceptance\SignupCest.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/acceptance/SignupCest.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\acceptance\_bootstrap.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/acceptance/_bootstrap.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\codeception.yml" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/codeception.yml" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\functional.suite.yml" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/functional.suite.yml" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\functional\AboutCept.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/functional/AboutCept.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\functional\ContactCept.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/functional/ContactCept.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\functional\HomeCept.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/functional/HomeCept.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\functional\LoginCept.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/functional/LoginCept.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\functional\SignupCest.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/functional/SignupCest.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\functional\_bootstrap.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/functional/_bootstrap.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\unit.suite.yml" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/unit.suite.yml" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\unit\DbTestCase.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/unit/DbTestCase.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\unit\TestCase.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/unit/TestCase.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\unit\_bootstrap.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/unit/_bootstrap.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\unit\fixtures\data\models\user.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/unit/fixtures/data/models/user.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\unit\models\ContactFormTest.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/unit/models/ContactFormTest.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\unit\models\PasswordResetRequestFormTest.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/unit/models/PasswordResetRequestFormTest.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\unit\models\ResetPasswordFormTest.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/unit/models/ResetPasswordFormTest.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\tests\codeception\frontend\unit\models\SignupFormTest.php" afterPath="$PROJECT_DIR$/blog/yii/tests/codeception/frontend/unit/models/SignupFormTest.php" />
-      <change type="MOVED" beforePath="D:\WWW\hello\yii\yii.bat" afterPath="$PROJECT_DIR$/blog/yii/yii.bat" />
-    </list>
+    <list id="23406fbd-f9e3-4797-a516-52dc75a284ad" name="Rejected commit: Default" comment="yii" />
     <ignored path="hello.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="94f31075-7ca4-42e1-80bf-f718741f568a" time="1418625676414" ignored="false" />
+    <file path="/Dummy.txt" changelist="94f31075-7ca4-42e1-80bf-f718741f568a" time="1418625709202" ignored="false" />
     <file path="$PROJECT_DIR$/../wechatbind/.idea/workspace.xml" changelist="94f31075-7ca4-42e1-80bf-f718741f568a" time="1418625557083" ignored="false" />
     <file path="$PROJECT_DIR$/../yiirestful/wechat/protected/controllers/ApiController.php" changelist="94f31075-7ca4-42e1-80bf-f718741f568a" time="1418107640739" ignored="false" />
     <file path="$PROJECT_DIR$/../yiirestful/wechat/protected/config/main.php" changelist="94f31075-7ca4-42e1-80bf-f718741f568a" time="1418107672469" ignored="false" />
@@ -231,7 +229,7 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="52" selection-start="2153" selection-end="2153" vertical-scroll-proportion="-1.501845">
+            <state line="83" column="52" selection-start="2153" selection-end="2153" vertical-scroll-proportion="-1.1988218">
               <folding>
                 <marker date="1418623906719" expanded="true" signature="6057:6294" placeholder="..." />
               </folding>
@@ -269,8 +267,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="33" />
-    <option name="y" value="65" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -396,7 +394,11 @@
       <created>1418111770565</created>
       <updated>1418111770565</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="yii">
+      <created>1418625731457</created>
+      <updated>1418625731457</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -420,15 +422,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="33" y="65" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960895" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1765363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1765363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32997987" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.8234637" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.334004" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17289221" sideWeight="0.6703911" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17289221" sideWeight="0.8234637" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1664888" sideWeight="0.3360161" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -586,7 +588,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="52" selection-start="2153" selection-end="2153" vertical-scroll-proportion="-1.501845">
+        <state line="83" column="52" selection-start="2153" selection-end="2153" vertical-scroll-proportion="-1.1988218">
           <folding>
             <marker date="1418623906719" expanded="true" signature="6057:6294" placeholder="..." />
           </folding>
