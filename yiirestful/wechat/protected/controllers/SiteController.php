@@ -2,6 +2,8 @@
 
 class SiteController extends Controller
 {
+	public $layout='column1';
+
 	/**
 	 * Declares class-based actions.
 	 */
@@ -12,6 +14,8 @@ class SiteController extends Controller
 			'captcha'=>array(
 				'class'=>'CCaptchaAction',
 				'backColor'=>0xFFFFFF,
+                'maxLength'=>6,
+                'minLength'=>'6',
 			),
 			// page action renders "static" pages stored under 'protected/views/site/pages'
 			// They can be accessed via: index.php?r=site/page&view=FileName
@@ -21,29 +25,27 @@ class SiteController extends Controller
 		);
 	}
 
-	/**
-	 * This is the default 'index' action that is invoked
-	 * when an action is not explicitly requested by users.
-	 */
-	public function actionIndex()
-	{
-		// renders the view file 'protected/views/site/index.php'
-		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('index');
-	}
+    public function accessRules(){
+        return array(
+            array('allow',
+                'actions'=>array('captcha'),
+                'users'=>array('*'),
+            ),
+        );
+    }
 
 	/**
 	 * This is the action to handle external exceptions.
 	 */
 	public function actionError()
 	{
-		if($error=Yii::app()->errorHandler->error)
-		{
-			if(Yii::app()->request->isAjaxRequest)
-				echo $error['message'];
-			else
-				$this->render('error', $error);
-		}
+	    if($error=Yii::app()->errorHandler->error)
+	    {
+	    	if(Yii::app()->request->isAjaxRequest)
+	    		echo $error['message'];
+	    	else
+	        	$this->render('error', $error);
+	    }
 	}
 
 	/**
@@ -57,14 +59,8 @@ class SiteController extends Controller
 			$model->attributes=$_POST['ContactForm'];
 			if($model->validate())
 			{
-				$name='=?UTF-8?B?'.base64_encode($model->name).'?=';
-				$subject='=?UTF-8?B?'.base64_encode($model->subject).'?=';
-				$headers="From: $name <{$model->email}>\r\n".
-					"Reply-To: {$model->email}\r\n".
-					"MIME-Version: 1.0\r\n".
-					"Content-Type: text/plain; charset=UTF-8";
-
-				mail(Yii::app()->params['adminEmail'],$subject,$model->body,$headers);
+				$headers="From: {$model->email}\r\nReply-To: {$model->email}";
+				mail(Yii::app()->params['adminEmail'],$model->subject,$model->body,$headers);
 				Yii::app()->user->setFlash('contact','Thank you for contacting us. We will respond to you as soon as possible.');
 				$this->refresh();
 			}
@@ -77,6 +73,9 @@ class SiteController extends Controller
 	 */
 	public function actionLogin()
 	{
+		if (!defined('CRYPT_BLOWFISH')||!CRYPT_BLOWFISH)
+			throw new CHttpException(500,"This application requires that PHP was compiled with Blowfish support for crypt().");
+
 		$model=new LoginForm;
 
 		// if it is ajax validation request
@@ -106,4 +105,70 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
+
+    public function actionTest()
+    {
+        $headers = array(
+            'Content-Type: application/json',
+            'Accept: application/json',
+            'HTTP_X_FIREALS_USERNAME:' . 'demo',
+            'HTTP_X_FIREALS_PASSWORD:' . 'demo',
+        );
+        $data = array();
+        $data['touser'] = 'o2Rmrt9B49oJbITFEpNxTaMUVUSw';
+        $data['msgtype'] = 'text';
+        $data['text']['content'] = 'From SIna hello';
+
+        //  echo 'The link is: ' . 'http://sl.shadela.com/index.php?r=api/login' . '<br>';
+        $response = $this->createApiCall('https://api.weixin.qq.com/cgi-bin/message/custom/send?access_token=_c8I-97j0_EZ1BQE5AU5ktTWw4vAXIkN6DRZ4Y9uQLpNj8KzjquE1ivJjxFTZIZE0drENHKeeMl_wph7_HiDXEJJXK_cNHyP5GDDEGhowYQ', 'POST', $headers, $data);//http://sl.shadela.com/index.php?r=api/login
+        //$response = json_decode($response, true);
+
+        var_dump($response);
+    //    print_r($response);
+
+    }
+
+    protected  function createApiCall($url, $method, $headers, $data = array())
+    {
+        if ($method == 'PUT')
+        {
+            $headers[] = 'X-HTTP-Method-Override: PUT';
+        }
+
+        $handle = curl_init();
+        curl_setopt($handle, CURLOPT_URL, $url);//这是你想用PHP取回的URL地址。你也可以在用curl_init()函数初始化时设置这个选项。
+        curl_setopt($handle, CURLOPT_HTTPHEADER, $headers);
+        curl_setopt($handle, CURLOPT_HEADER, true);
+        curl_setopt($handle, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($handle, CURLOPT_SSL_VERIFYHOST, false);
+        curl_setopt($handle, CURLOPT_SSL_VERIFYPEER, false);
+
+        switch($method)
+        {
+            case 'GET':
+                break;
+            case 'POST':
+                curl_setopt($handle, CURLOPT_POST, true);
+                curl_setopt($handle, CURLOPT_POSTFIELDS, http_build_query($data));// 传递一个作为HTTP “POST”操作的所有数据的字符串。
+                break;
+            case 'PUT':
+                curl_setopt($handle, CURLOPT_CUSTOMREQUEST, 'PUT');//当进行HTTP请求时，传递一个字符被GET或HEAD使用。为进行DELETE或其它操作是有益的，更Pass a string to be used instead of GET or HEAD when doing an HTTP request. This is useful for doing  or another, more obscure, HTTP request.
+                curl_setopt($handle, CURLOPT_POSTFIELDS, http_build_query($data));
+                break;
+            case 'DELETE':
+                curl_setopt($handle, CURLOPT_CUSTOMREQUEST, 'DELETE');
+                break;
+        }
+        $response = curl_exec($handle);
+
+        if ( $response === FALSE ) {
+            echo "cURL Error: " . curl_error ( $handle ) ;
+            exit();
+        } else {
+            $info = curl_getinfo ( $handle ) ;
+            print_r($info);
+        }
+        return $response;
+    }
+
 }
