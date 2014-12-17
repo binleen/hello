@@ -2,42 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94f31075-7ca4-42e1-80bf-f718741f568a" name="Default" comment="wechat">
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\ln_cd.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\ln_cg.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\lo.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\lo_la.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\lt.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\lt_lt.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\lu.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\lu_cd.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\luo.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\luo_ke.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\luy.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\luy_ke.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\lv.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\lv_lv.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\mas.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\mas_ke.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\mas_tz.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\mer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\mer_ke.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\mfe.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\mfe_mu.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\mg.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\mg_mg.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\mgh.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\mgh_mz.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\mi.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\mi_nz.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\mk.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\WWW\hello\yiirestful\framework\i18n\data\mk_mk.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/index.php" afterPath="$PROJECT_DIR$/blog/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="23406fbd-f9e3-4797-a516-52dc75a284ad" name="Rejected commit: Default" comment="yii" />
     <ignored path="hello.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="94f31075-7ca4-42e1-80bf-f718741f568a" time="1418795881215" ignored="false" />
+    <file path="/Dummy.txt" changelist="94f31075-7ca4-42e1-80bf-f718741f568a" time="1418796029067" ignored="false" />
     <file path="$PROJECT_DIR$/../wechatbind/.idea/workspace.xml" changelist="94f31075-7ca4-42e1-80bf-f718741f568a" time="1418625557083" ignored="false" />
     <file path="$PROJECT_DIR$/../yiirestful/wechat/protected/controllers/ApiController.php" changelist="94f31075-7ca4-42e1-80bf-f718741f568a" time="1418107640739" ignored="false" />
     <file path="$PROJECT_DIR$/../yiirestful/wechat/protected/config/main.php" changelist="94f31075-7ca4-42e1-80bf-f718741f568a" time="1418107672469" ignored="false" />
@@ -75,19 +45,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="382" selection-end="382" vertical-scroll-proportion="0.38880706">
+            <state line="12" column="0" selection-start="382" selection-end="382" vertical-scroll-proportion="-8.5161295">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/protected/config/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="67" selection-start="1236" selection-end="1236" vertical-scroll-proportion="-22.709677">
+            <state line="47" column="67" selection-start="1236" selection-end="1236" vertical-scroll-proportion="1.298893">
               <folding />
             </state>
           </provider>
@@ -292,7 +262,11 @@
       <created>1418111770565</created>
       <updated>1418111770565</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="wechat">
+      <created>1418796003251</created>
+      <updated>1418796003251</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -316,15 +290,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1765363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960895" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1765363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32997987" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.8234637" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.334004" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17449306" sideWeight="0.8234637" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17449306" sideWeight="0.6703911" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1664888" sideWeight="0.3360161" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -406,16 +380,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog/protected/config/main.php">
+    <entry file="file://$PROJECT_DIR$/blog/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="67" selection-start="1236" selection-end="1236" vertical-scroll-proportion="-22.709677">
+        <state line="12" column="0" selection-start="382" selection-end="382" vertical-scroll-proportion="-8.5161295">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/index.php">
+    <entry file="file://$PROJECT_DIR$/blog/protected/config/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="382" selection-end="382" vertical-scroll-proportion="0.38880706">
+        <state line="47" column="67" selection-start="1236" selection-end="1236" vertical-scroll-proportion="1.298893">
           <folding />
         </state>
       </provider>
