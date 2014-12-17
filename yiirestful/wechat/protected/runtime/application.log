@@ -1,0 +1,150 @@
+2014/11/25 09:59:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in D:\WWW\yiirestful\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\WWW\yiirestful\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\WWW\yiirestful\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\WWW\yiirestful\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\WWW\yiirestful\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\WWW\yiirestful\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 D:\WWW\yiirestful\framework\web\CFormModel.php(39): CrudCode->init()
+#6 D:\WWW\yiirestful\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\WWW\yiirestful\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\WWW\yiirestful\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\WWW\yiirestful\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\WWW\yiirestful\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\WWW\yiirestful\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\WWW\yiirestful\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\WWW\yiirestful\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/crud/index')
+#14 D:\WWW\yiirestful\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\WWW\yiirestful\wechat\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yiirestful/wechat/index.php/gii/crud/index
+HTTP_REFERER=http://localhost/yiirestful/wechat/index.php/gii/default/index
+---
+2014/11/25 10:00:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\WWW\yiirestful\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\WWW\yiirestful\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\WWW\yiirestful\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\WWW\yiirestful\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\WWW\yiirestful\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\WWW\yiirestful\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 D:\WWW\yiirestful\framework\web\CFormModel.php(39): CrudCode->init()
+#6 D:\WWW\yiirestful\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 D:\WWW\yiirestful\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 D:\WWW\yiirestful\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 D:\WWW\yiirestful\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\WWW\yiirestful\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\WWW\yiirestful\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\WWW\yiirestful\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\WWW\yiirestful\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/crud/index')
+#14 D:\WWW\yiirestful\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\WWW\yiirestful\wechat\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yiirestful/wechat/index.php/gii/crud/index
+---
+2014/11/25 10:12:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wechat.email' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `email`.
+in D:\WWW\yiirestful\wechat\index.php (13)
+2014/11/25 10:12:54 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wechat.tag' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tag`.
+in D:\WWW\yiirestful\wechat\index.php (13)
+2014/11/25 10:13:12 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wechat.tag' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tag`.
+in D:\WWW\yiirestful\wechat\index.php (13)
+2014/11/26 16:01:09 [error] [php] include(Weixin.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\WWW\yiirestful\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\WWW\yiirestful\wechat\index.php(16): spl_autoload_call()
+REQUEST_URI=/yiirestful/wechat/
+in D:\WWW\yiirestful\wechat\index.php (16)
+2014/11/26 16:02:08 [error] [php] include(D:\WWW\yiirestful\wechat\protected\extensions\weixin.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\WWW\yiirestful\framework\YiiBase.php:401)
+Stack trace:
+#0 D:\WWW\yiirestful\wechat\index.php(16): spl_autoload_call()
+REQUEST_URI=/yiirestful/wechat/
+in D:\WWW\yiirestful\wechat\index.php (16)
+2014/11/26 16:04:43 [error] [php] include(Weixin.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\WWW\yiirestful\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\WWW\yiirestful\wechat\index.php(16): spl_autoload_call()
+REQUEST_URI=/yiirestful/wechat/
+in D:\WWW\yiirestful\wechat\index.php (16)
+2014/11/26 16:06:21 [error] [php] include(D:\WWW\yiirestful\wechat\protected\extensions\Weixin.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\WWW\yiirestful\framework\YiiBase.php:401)
+Stack trace:
+#0 D:\WWW\yiirestful\wechat\index.php(16): spl_autoload_call()
+REQUEST_URI=/yiirestful/wechat/
+in D:\WWW\yiirestful\wechat\index.php (16)
+2014/11/26 16:06:24 [error] [php] include(D:\WWW\yiirestful\wechat\protected\extensions\Weixin.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\WWW\yiirestful\framework\YiiBase.php:401)
+Stack trace:
+#0 D:\WWW\yiirestful\wechat\index.php(16): spl_autoload_call()
+REQUEST_URI=/yiirestful/wechat/
+in D:\WWW\yiirestful\wechat\index.php (16)
+2014/11/26 16:08:49 [error] [exception.CException] exception 'CException' with message 'Alias "extension.Weixin" is invalid. Make sure it points to an existing directory or file.' in D:\WWW\yiirestful\framework\YiiBase.php:347
+Stack trace:
+#0 D:\WWW\yiirestful\wechat\index.php(15): YiiBase::import('extension.Weixi...')
+#1 {main}
+REQUEST_URI=/yiirestful/wechat/
+---
+2014/11/26 16:09:10 [error] [php] include(D:\WWW\yiirestful\wechat\protected\extensions\Weixin.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\WWW\yiirestful\framework\YiiBase.php:401)
+Stack trace:
+#0 D:\WWW\yiirestful\wechat\index.php(16): spl_autoload_call()
+REQUEST_URI=/yiirestful/wechat/
+in D:\WWW\yiirestful\wechat\index.php (16)
+2014/11/26 16:10:57 [error] [php] include(D:\WWW\yiirestful\wechat\protected\extensions\Weixin.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\WWW\yiirestful\framework\YiiBase.php:401)
+Stack trace:
+#0 D:\WWW\yiirestful\wechat\index.php(16): spl_autoload_call()
+REQUEST_URI=/yiirestful/wechat/
+in D:\WWW\yiirestful\wechat\index.php (16)
+2014/12/04 13:26:16 [error] [php] include(D:\WWW\yiirestful\wechat\protected\extensions\Weixin.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\WWW\yiirestful\framework\YiiBase.php:401)
+Stack trace:
+#0 D:\WWW\yiirestful\wechat\index.php(16): spl_autoload_call()
+REQUEST_URI=/yiirestful/wechat/
+in D:\WWW\yiirestful\wechat\index.php (16)
+2014/12/04 13:26:30 [error] [php] include(D:\WWW\yiirestful\wechat\protected\extensions\Weixin.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\WWW\yiirestful\framework\YiiBase.php:401)
+Stack trace:
+#0 D:\WWW\yiirestful\wechat\index.php(16): spl_autoload_call()
+REQUEST_URI=/yiirestful/wechat/index.php?r=gii
+in D:\WWW\yiirestful\wechat\index.php (16)
+2014/12/04 13:26:38 [error] [php] include(D:\WWW\yiirestful\wechat\protected\extensions\Weixin.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\WWW\yiirestful\framework\YiiBase.php:401)
+Stack trace:
+#0 D:\WWW\yiirestful\wechat\index.php(16): spl_autoload_call()
+REQUEST_URI=/yiirestful/wechat/index.php?r=gii
+in D:\WWW\yiirestful\wechat\index.php (16)
+2014/12/04 13:29:05 [error] [php] include(D:\WWW\yiirestful\wechat\protected\extensions\Weixin.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\WWW\yiirestful\framework\YiiBase.php:401)
+Stack trace:
+#0 D:\WWW\yiirestful\wechat\index.php(16): spl_autoload_call()
+REQUEST_URI=/yiirestful/wechat/
+in D:\WWW\yiirestful\wechat\index.php (16)
+2014/12/04 13:30:36 [error] [php] include(D:\WWW\yiirestful\wechat\protected\extensions\Weixin.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\WWW\yiirestful\framework\YiiBase.php:401)
+Stack trace:
+#0 D:\WWW\yiirestful\wechat\index.php(16): spl_autoload_call()
+REQUEST_URI=/yiirestful/wechat/
+in D:\WWW\yiirestful\wechat\index.php (16)
+2014/12/04 13:30:44 [error] [php] include(D:\WWW\yiirestful\wechat\protected\extensions\Weixin.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\WWW\yiirestful\framework\YiiBase.php:401)
+Stack trace:
+#0 D:\WWW\yiirestful\wechat\index.php(16): spl_autoload_call()
+REQUEST_URI=/yiirestful/wechat/index.php?r=gii
+in D:\WWW\yiirestful\wechat\index.php (16)
+2014/12/04 13:30:48 [error] [php] include(D:\WWW\yiirestful\wechat\protected\extensions\Weixin.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\WWW\yiirestful\framework\YiiBase.php:401)
+Stack trace:
+#0 D:\WWW\yiirestful\wechat\index.php(16): spl_autoload_call()
+REQUEST_URI=/yiirestful/wechat/index.php
+in D:\WWW\yiirestful\wechat\index.php (16)
+2014/12/05 10:03:01 [error] [php] include(D:\WWW\yiirestful\wechat\protected\extensions\Weixin.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\WWW\yiirestful\framework\YiiBase.php:401)
+Stack trace:
+#0 D:\WWW\yiirestful\wechat\index.php(16): spl_autoload_call()
+REQUEST_URI=/yiirestful/wechat/
+in D:\WWW\yiirestful\wechat\index.php (16)
+2014/12/05 10:03:20 [error] [php] include(D:\WWW\yiirestful\wechat\protected\extensions\Weixin.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\WWW\yiirestful\framework\YiiBase.php:401)
+Stack trace:
+#0 D:\WWW\yiirestful\wechat\index.php(16): spl_autoload_call()
+REQUEST_URI=/yiirestful/wechat/index.php?r=api/post
+in D:\WWW\yiirestful\wechat\index.php (16)
+2014/12/05 10:04:26 [error] [php] include(D:\WWW\yiirestful\wechat\protected\extensions\Weixin.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\WWW\yiirestful\framework\YiiBase.php:401)
+Stack trace:
+#0 D:\WWW\yiirestful\wechat\index.php(16): spl_autoload_call()
+REQUEST_URI=/yiirestful/wechat/index.php?r=api/post
+in D:\WWW\yiirestful\wechat\index.php (16)
+2014/12/05 10:06:46 [error] [php] include(D:\WWW\yiirestful\wechat\protected\extensions\Weixin.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\WWW\yiirestful\framework\YiiBase.php:401)
+Stack trace:
+#0 D:\WWW\yiirestful\wechat\index.php(16): spl_autoload_call()
+REQUEST_URI=/yiirestful/wechat/index.php
+in D:\WWW\yiirestful\wechat\index.php (16)
+2014/12/05 10:06:51 [error] [php] include(D:\WWW\yiirestful\wechat\protected\extensions\Weixin.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\WWW\yiirestful\framework\YiiBase.php:401)
+Stack trace:
+#0 D:\WWW\yiirestful\wechat\index.php(16): spl_autoload_call()
+REQUEST_URI=/yiirestful/wechat/
+in D:\WWW\yiirestful\wechat\index.php (16)

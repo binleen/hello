@@ -1,0 +1,243 @@
+<?php
+session_start();
+$link=mysql_connect(SAE_MYSQL_HOST_M.':'.SAE_MYSQL_PORT,SAE_MYSQL_USER,SAE_MYSQL_PASS);
+mysql_select_db(SAE_MYSQL_DB,$link);
+
+define("TOKEN", "coyqiuhaowechat1234");
+
+$wechatObj = new wechatCallbackapiTest();
+if (!isset($_GET['echostr'])) {
+    $wechatObj->responseMsg();
+}else{
+    $wechatObj->valid();
+}
+
+class wechatCallbackapiTest
+{
+    public function valid()
+    {
+        $echoStr = $_GET["echostr"];
+        if($this->checkSignature()){
+            echo $echoStr;
+            exit;
+        }
+    }
+    private function checkMobile($phone){
+        if(preg_match("/^13[0-9]{1}[0-9]{8}$|15[0189]{1}[0-9]{8}$|18[0-9]{9}$/",$phone)){
+            $content = "您的手机号码为：".$phone.",确认请回复【1】。如果有误，请重新点击【会员专区】之【手机绑定】";
+        }else{
+            $content = "对不起，您输入的手机号码格式不正确。如需绑定请重新点击【会员专区】之【手机绑定】";
+        }
+        return $content;
+    }
+    private function checkSignature()
+    {
+        $signature = $_GET["signature"];
+        $timestamp = $_GET["timestamp"];
+        $nonce = $_GET["nonce"];
+        $token = TOKEN;
+        $tmpArr = array($token, $timestamp, $nonce);
+        sort($tmpArr);
+        $tmpStr = implode($tmpArr);
+        $tmpStr = sha1($tmpStr);
+
+        if($tmpStr == $signature){
+            return true;
+        }else{
+            return false;
+        }
+    }
+    //生成验证码的函数
+    public function code()
+    {
+        $strarr = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijkmnpqrstuvwxyz1234567890';
+        $l = strlen($strarr); //得到字串的长度;
+        //循环随机抽取六位前面定义的字母和数字;
+        for($i=1;$i<=6;$i++)
+        {
+            $num=rand(0,$l-1);
+            //每次随机抽取一位数字;从第一个字到该字串最大长度,
+            //减1是因为截取字符是从0开始起算;这样34字符任意都有可能排在其中;
+            $authnum .= $strarr[$num];
+            //将通过数字得来的字符连起来一共是六位;
+        }
+        return $authnum;
+
+    }
+    public function dbSelect($table,$field,$where)
+    {
+        $result = mysql_query("select $field from $table where $where");
+        while($row = mysql_fetch_array($result))
+        {
+            return $row;
+        }
+    }
+    public function dbInsert($table,$data)
+    {
+        //遍历$data生成$key_str和$value_str
+        $key_str = "";      // xxx,yyy,zzz
+        $value_str = "";    // 'xxx','yyy','zzz'
+
+        foreach($data as $k => $v)
+        {
+            $key_str .= $k.","; //xxx,yyy,zzz,
+            $value_str .= "'".$v."',"; //'xxx','yyy','zzz',
+        }
+
+        //去掉$key_str, $value_str 最后的一个逗号
+        $key_str = substr($key_str,0,-1);   // xxx,yyy,zzz,  转换为  xxx,yyy,zzz
+        $value_str = substr($value_str,0,-1); //'xxx','yyy','zzz', 转换为 'xxx','yyy','zzz'
+
+        $sql = "insert into {$table}({$key_str}) values({$value_str})";
+
+        mysql_query($sql);
+        return mysql_insert_id();
+    }
+
+    public function responseMsg()
+    {
+        $postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
+        if (!empty($postStr)){
+            $this->logger("R ".$postStr);
+            $postObj = simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);
+            $RX_TYPE = trim($postObj->MsgType);
+
+            switch ($RX_TYPE)
+            {
+                case "event":
+                    $result = $this->receiveEvent($postObj);
+                    break;
+                case "text":
+                    $result = $this->receiveText($postObj);
+                    break;
+                default:
+                    $result = "unknow msg type: ".$RX_TYPE;
+                    break;
+            }
+            $this->logger("T ".$result);
+            echo $result;
+        }else {
+            echo "";
+            exit;
+        }
+    }
+    private function receiveEvent($object)
+    {
+        $fromusername = $object->FromUserName;
+        $content = "";
+        switch ($object->Event)
+        {
+            case "subscribe":
+                $content = "欢迎关注昊祥科技有限公司 ";
+                $content = (!empty($object->EventKey))?("\n来自二维码场景 ".str_replace("qrscene_","",$object->EventKey)):"";
+                break;
+            case "CLICK":
+                switch ($object->EventKey)
+                {
+                    case "BIND":
+
+                        $data = $this->dbSelect("user","flag","openid = '{$fromusername}'");
+                        if($data['flag'] == 1){
+                            $content =  "恭喜您已绑定成功";
+                        }else{
+                            $content =  "尊敬的用户，您好！欢迎加入【昊祥科技有限公司】会员俱乐部，请回复您的手机号码，完成身份绑定。";
+                        }
+                        break;
+                    // case "CODE":
+                    //     $astr = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijkmnpqrstuvwxyz1234567890';
+                    //     $content = $this->code($astr);
+                    //     $data=array();
+                    //     $data['phone'] = $phone;
+                    //     $data['code']=$content;
+                    //     $data['openid'] = $object->FromUserName;
+                    //     $this->dbInsert('user','$data');
+                    //     break;
+                    default:
+                        $content = "点击菜单：".$object->EventKey;
+                        break;
+                }
+                break;
+            case "unsubscribe":
+                $content = "取消关注";
+                break;
+
+        }
+        $result = $this->transmitText($object, $content);
+        return $result;
+    }
+    private function receiveText($object)
+    {
+        $num = trim($object->Content);
+        $data = array();
+        $data['phone'] = $num;
+        $phone = $this->dbInsert('user',$data);
+        $content = $this->checkMobile($num);
+        $result = $this->transmitText($object, $content);
+
+        $keyword = trim($object->Content);
+        switch($keyword){
+            case 1:
+                $content = "尊敬的用户，您已确认需绑定的手机号码，我们将发送验证码至该手机号码，请您于5分钟内微信回复您收到的验证码，以确认绑定。";
+            // $code=$this->code();
+            // $arr = array();
+            // $arr['openid'] = $object->FromUserName;
+            //  $arr['time'] = date('h:i:s',time());
+            //   $arr['code']=$code;
+            //   $this->dbInsert('user',$arr);
+                break;
+        }
+        $result = $this->transmitText($object, $content);
+        // $word = trim($object->Content);
+
+        // $content = $this->compareCode($word,$object->FromUserName);
+
+        //  $result = $this->transmitText($object, $content);
+        return $result;
+    }
+    public function compareCode($code,$fromusername){
+        $data=array();
+        $data=$this->dbSelect('user','*','openid=$object->FromUserName');
+            if(time()-$data['time']<5*60 && $code==$data['code']){
+                $data['flag'] = 1;
+                $data['openid'] = $fromusername;
+                $this->dbInsert('user',$data);
+                $content="您的验证码输入正确，您的手机成功绑定本公众平台";
+                }else{
+                     $content="验证码已超时，请您重新获取验证码！重新获取验证码请输入..(输入关键字)";
+                 }
+        return $content;
+    }
+    private function transmitText($object, $content)
+    {
+        $textTpl = "<xml>
+        <ToUserName><![CDATA[%s]]></ToUserName>
+        <FromUserName><![CDATA[%s]]></FromUserName>
+        <CreateTime>%s</CreateTime>
+        <MsgType><![CDATA[text]]></MsgType>
+        <Content><![CDATA[%s]]></Content>
+        </xml>";
+        $result = sprintf($textTpl, $object->FromUserName, $object->ToUserName, time(), $content);
+        return $result;
+    }
+    private function logger($log_content)
+    {
+        if(isset($_SERVER['HTTP_BAE_ENV_APPID'])){   //BAE
+            require_once "BaeLog.class.php";
+            $logger = BaeLog::getInstance();
+            $logger ->logDebug($log_content);
+        }else if(isset($_SERVER['HTTP_APPNAME'])){   //SAE
+            sae_set_display_errors(false);
+            sae_debug($log_content);
+            sae_set_display_errors(true);
+        }else if($_SERVER['REMOTE_ADDR'] != "127.0.0.1"){ //LOCAL
+            $max_size = 10000;
+            $log_filename = "log.xml";
+            if(file_exists($log_filename) and (abs(filesize($log_filename)) > $max_size)){
+                unlink($log_filename);
+            }
+            file_put_contents($log_filename, date('H:i:s')." ".$log_content."\r\n", FILE_APPEND);
+        }
+    }
+}
+
+?>
